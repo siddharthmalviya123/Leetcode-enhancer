@@ -1,0 +1,39 @@
+/* hide difficulty status from new coding area UI */
+
+#qd-content>div.h-full.flex-col.ssg__qd-splitter-primary-w > div > div > div > div.flex.h-full.w-full.overflow-y-auto.rounded-b > div > div > div.w-full.px-5.pt-5 > div > div.mt-3.flex.items-center.space-x-4 >.inline-block.text-sm.font-medium.capitalize.leading-\[22px\] {
+    display: none;
+}
+
+.add-bg {
+    /* background-color: rgb(118, 255, 118) !important; */
+    /* background-color: rgb(44, 187, 93) !important; */
+    /* background-image: linear-gradient(to left, rgb(56, 151, 255), rgb(10, 132, 255)) !important; */
+    background-color: rgb(44, 187, 93) !important;
+    /* background-color: rgb(74 255 136) !important; */
+}
+
+.add-bg-old {
+    background-color: rgb(118, 255, 118) !important;
+}
+
+.add-bg-dark {
+    background-color: rgb(115, 115, 115) !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.color-alfa0 {
+    color: rgba(0, 0, 0, 0);
+}
+
+.blur {
+    border-color: gray !important;
+    color: gray !important;
+    background-color: white !important;
+}
